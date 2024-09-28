@@ -1,0 +1,134 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 176 192)
+	(text "circ_comb" (rect 5 0 47 12)(font "Arial" ))
+	(text "inst" (rect 8 160 20 172)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "sa1" (rect 0 0 12 12)(font "Arial" ))
+		(text "sa1" (rect 21 27 33 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "za1" (rect 0 0 11 12)(font "Arial" ))
+		(text "za1" (rect 21 43 32 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "sv1" (rect 0 0 14 12)(font "Arial" ))
+		(text "sv1" (rect 21 59 35 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "zv1" (rect 0 0 12 12)(font "Arial" ))
+		(text "zv1" (rect 21 75 33 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "c" (rect 0 0 4 12)(font "Arial" ))
+		(text "c" (rect 21 91 25 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "current2" (rect 0 0 33 12)(font "Arial" ))
+		(text "current2" (rect 21 107 54 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "current1" (rect 0 0 31 12)(font "Arial" ))
+		(text "current1" (rect 21 123 52 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "current0" (rect 0 0 33 12)(font "Arial" ))
+		(text "current0" (rect 21 139 54 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 1))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "next2" (rect 0 0 21 12)(font "Arial" ))
+		(text "next2" (rect 118 27 139 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32)(line_width 1))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "next1" (rect 0 0 20 12)(font "Arial" ))
+		(text "next1" (rect 119 43 139 55)(font "Arial" ))
+		(line (pt 160 48)(pt 144 48)(line_width 1))
+	)
+	(port
+		(pt 160 64)
+		(output)
+		(text "next0" (rect 0 0 21 12)(font "Arial" ))
+		(text "next0" (rect 118 59 139 71)(font "Arial" ))
+		(line (pt 160 64)(pt 144 64)(line_width 1))
+	)
+	(port
+		(pt 160 80)
+		(output)
+		(text "pa1" (rect 0 0 12 12)(font "Arial" ))
+		(text "pa1" (rect 127 75 139 87)(font "Arial" ))
+		(line (pt 160 80)(pt 144 80)(line_width 1))
+	)
+	(port
+		(pt 160 96)
+		(output)
+		(text "ta1" (rect 0 0 10 12)(font "Arial" ))
+		(text "ta1" (rect 129 91 139 103)(font "Arial" ))
+		(line (pt 160 96)(pt 144 96)(line_width 1))
+	)
+	(port
+		(pt 160 112)
+		(output)
+		(text "pv1" (rect 0 0 14 12)(font "Arial" ))
+		(text "pv1" (rect 125 107 139 119)(font "Arial" ))
+		(line (pt 160 112)(pt 144 112)(line_width 1))
+	)
+	(port
+		(pt 160 128)
+		(output)
+		(text "tv1" (rect 0 0 11 12)(font "Arial" ))
+		(text "tv1" (rect 128 123 139 135)(font "Arial" ))
+		(line (pt 160 128)(pt 144 128)(line_width 1))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 160)(line_width 1))
+	)
+)
